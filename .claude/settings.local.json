@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(xargs wc:*)",
+      "Bash(gh issue:*)",
+      "Bash(python -c \"import json; nb = json.load\\(open\\(''colab notebooks/11_project1_train_unet_coarse_mask.ipynb''\\)\\); [print\\(i, c[''cell_type''], repr\\(c[''source''][:80] if isinstance\\(c[''source''], str\\) else ''''.join\\(c[''source'']\\)[:80]\\)\\) for i, c in enumerate\\(nb[''cells'']\\)]\")",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
